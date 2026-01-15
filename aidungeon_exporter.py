@@ -1623,7 +1623,7 @@ def save_content_verbose(content: list, content_type: str, format_func) -> None:
     print("\n" + "="*60)
     print(f"Exported {total_saved} adventures to: {DATA_DIR}")
     print("="*60)
-    print(f"\n📊 EXPORT TOTALS:")
+    print(f"\n EXPORT TOTALS:")
     print(f"   Characters: {grand_total_chars:,}")
     print(f"   Words:      {grand_total_words:,}")
     print(f"   Tokens:     {grand_total_tokens:,}")
