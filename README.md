@@ -40,27 +40,6 @@ The script will automatically:
 4. Detect your login and capture your session
 5. Present a menu with export options
 
-## ⚠️ This Is NOT Malware - Why Chrome Login Is Required
-
-**AI Dungeon does not provide a public API for exporting your data.** The only way to access your adventures is through your logged-in browser session.
-
-Here's exactly what happens:
-
-1. **Chrome opens with a debugging flag** - This is a standard Chrome feature (`--remote-debugging-port`) used by developers, testing tools, and browser extensions worldwide.
-
-2. **You log into AI Dungeon normally** - Your credentials go directly to AI Dungeon's servers, exactly like when you use Chrome manually. This script never sees your password.
-
-3. **The script reads your session token** - After you log in, AI Dungeon stores a session token in your browser's localStorage. This is the same token your browser uses to prove you're logged in. The script reads this token to make API requests on your behalf.
-
-4. **All requests go to AI Dungeon's official API** - The script talks directly to `api.aidungeon.com`. Nothing is sent anywhere else.
-
-**Why this approach?**
-- AI Dungeon doesn't offer a data export feature
-- There's no public API documentation
-- This method replicates exactly what your browser does when you play
-
-**The script is open source** - You can read the entire code yourself. There are no hidden network calls, no data collection, no external servers.
-
 ## Menu Options
 
 | Option | Description |
@@ -124,3 +103,24 @@ Run manually:
 ```cmd
 pip install pymongo
 ```
+
+### This Is NOT Malware - Why Chrome Login Is Required
+
+**AI Dungeon does not provide a public API for exporting your data.** The only way to access your adventures is through your logged-in browser session.
+
+Here's exactly what happens:
+
+1. **Chrome opens with a debugging flag** - This is a standard Chrome feature (`--remote-debugging-port`) used by developers, testing tools, and browser extensions worldwide.
+
+2. **You log into AI Dungeon normally** - Your credentials go directly to AI Dungeon's servers, exactly like when you use Chrome manually. This script never sees your password.
+
+3. **The script reads your session token** - After you log in, AI Dungeon stores a session token in your browser's localStorage. This is the same token your browser uses to prove you're logged in. The script reads this token to make API requests on your behalf.
+
+4. **All requests go to AI Dungeon's official API** - The script talks directly to `api.aidungeon.com`. Nothing is sent anywhere else.
+
+**Why this approach?**
+- AI Dungeon doesn't offer a data export feature
+- There's no public API documentation
+- This method replicates exactly what your browser does when you play
+
+**The script is open source** - You can read the entire code yourself. There are no hidden network calls, no data collection, no external servers.
