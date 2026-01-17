@@ -1,6 +1,6 @@
 # AI Dungeon Exporter
 
-Export all your AI Dungeon adventures including story content, plot essentials, author's notes, story cards, and cover images.
+Export all your AI Dungeon adventures including story content, plot essentials, author's notes, story cards, instructions if customized, and cover images.
 
 ## Features
 
