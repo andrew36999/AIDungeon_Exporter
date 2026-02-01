@@ -2,6 +2,8 @@
 
 Export all your AI Dungeon adventures including story content, plot essentials, author's notes, story cards, instructions if customized, and cover images.
 
+Fair warning: This program activates all your stories to export them, so after it is done, the order of your most recent stories will be shuffled up completely. So if you have over a thousand stories like me, you will notice the order has changed in aidungeon. This shouldn't be very relevant or a issue at all as you now have a full dated export in precise order but I think you should be aware of it.
+
 ## Features
 
 - **Full Story Export** - All actions/text from your adventures
