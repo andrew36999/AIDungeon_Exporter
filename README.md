@@ -1,5 +1,11 @@
 # AI Dungeon Exporter
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/github/license/andrew36999/AIDungeon_Exporter?color=orange)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/andrew36999/AIDungeon_Exporter?style=flat&logo=github)](https://github.com/andrew36999/AIDungeon_Exporter/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/andrew36999/AIDungeon_Exporter)](https://github.com/andrew36999/AIDungeon_Exporter/commits)
+[![Repo Size](https://img.shields.io/github/repo-size/andrew36999/AIDungeon_Exporter)](https://github.com/andrew36999/AIDungeon_Exporter)
+
 Export all your AI Dungeon adventures including story content, plot essentials, author's notes, story cards, instructions if customized, and cover images.
 
 Fair warning: This program activates all your stories to export them, so after it is done, the order of your most recent stories will be shuffled up completely. So if you have over a thousand stories like me, you will notice the order has changed in aidungeon. This shouldn't be very relevant or a issue at all as you now have a full dated export in precise order but I think you should be aware of it.
